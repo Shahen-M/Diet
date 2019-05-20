@@ -1,0 +1,40 @@
+header {
+  width: 100%;
+  display: inline-flex;
+}
+
+.right_content {
+  width: 50%;
+  display: flex;
+}
+
+header img {
+  width: 100px;
+  height: 80px;
+  margin: 10px 0 0 15px;
+}
+
+h1 {
+  margin: 15px 0 0 10px;
+  font-size: 50px;
+}
+
+nav {
+  width: 50%;
+}
+
+nav li {
+  float: right;
+  margin-right: 20px;
+  line-height: 50px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+ul a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
