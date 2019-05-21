@@ -1,3 +1,93 @@
+.food_group_container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+
 h2 {
   text-align: center;
 }
+
+/* .pie_chart {
+  width: 800px !important;
+  max-width: 100% !important;
+  position: absolute;
+} */
+
+.plate_img {
+  width: 400px;
+  float: left;
+}
+
+.plate_description {
+  width: 50%;
+  float: right;
+  margin-top: 100px;
+}
+
+.fruits_link {
+  width: 120px;
+  height: 122px;
+  position: absolute;
+  top: 128px;
+  left: 116px;
+  background: transparent;
+}
+
+.vegetables_link {
+  width: 120px;
+  height: 122px;
+  position: absolute;
+  top: 128px;
+  left: 244px;
+  background: transparent;
+}
+
+.protein_link {
+  width: 120px;
+  height: 122px;
+  position: absolute;
+  top: 260px;
+  left: 116px;
+  background: transparent;
+}
+
+.grains_link {
+  width: 120px;
+  height: 122px;
+  position: absolute;
+  top: 260px;
+  left: 244px;
+  background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
