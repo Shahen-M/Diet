@@ -24,7 +24,6 @@ nav {
 }
 
 nav li {
-  float: right;
   margin-right: 20px;
   line-height: 50px;
 }
@@ -37,4 +36,62 @@ ul a {
   list-style: none;
   text-decoration: none;
   color: #000;
+}
+
+
+/* ****************/
+nav {
+  text-transform: uppercase;
+  display: flex;
+}
+
+nav span {
+  background-image: url("../images/arrow.png");
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+}
+
+.drop_down {
+  width: 150px;
+  position: absolute;
+  display: none;
+  background: #fff;
+}
+
+.drop_down a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.drop_down li {
+  height: 50px;
+  cursor: pointer;
+  color: #000;
+  list-style: none;
+  margin: 0;
+}
+
+.drop_down li:hover {
+  background: grey;
+}
+
+.title {
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.drop_down_content {
+  display: table;
+  z-index: 10;
+  margin: 35px 0 0 35px;
+}
+
+.drop_down_content:hover
+.drop_down {
+  display: block;
 }

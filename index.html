@@ -17,15 +17,44 @@
         <h1> Website Title </h1>
       </div>
 
-      <nav>
-        <ul>
-          <a href="#"><li> Browse By Audience </li></a>
-          <a href="#"><li> Recipes </li></a>
-          <a href="#"><li> New LifeStyle </li></a>
-          <a href="#"><li> Home </li></a>
-        </ul>
-      </nav>
+      <nav id="nav">
+          <div class="drop_down_content">
+            <p id="title" class="title"> Home </p>
+          </div>
+
+          <div class="drop_down_content">
+            <p id="title" class="title"> New LifeStyle </p><span></span>
+
+            <div class="drop_down">
+              <a href="#"><li> Link 1 </li></a>
+              <a href="#"><li> Link 2 </li></a>
+              <a href="#"><li> Link 3 </li></a>
+            </div>
+          </div>
+
+          <div class="drop_down_content">
+            <p id="title" class="title"> Recipes </p><span></span>
+
+            <div class="drop_down">
+              <a href="#"><li> Link 1 </li></a>
+              <a href="#"><li> Link 2 </li></a>
+              <a href="#"><li> Link 3 </li></a>
+            </div>
+          </div>
+
+          <div class="drop_down_content">
+            <p id="title" class="title"> Browse By Audience </p><span></span>
+
+            <div class="drop_down">
+              <a href="#"><li> Link 1 </li></a>
+              <a href="#"><li> Link 2 </li></a>
+              <a href="#"><li> Link 3 </li></a>
+            </div>
+          </div>
+    </nav>
     </header>
+
+
 
     <main>
       <div class="ism-slider" data-play_type="loop" id="my-slider">
@@ -53,7 +82,7 @@
       <!-- <canvas id="myChart" class="pie_chart"></canvas> -->
 
       <figure>
-        <img class="plate_img" src="images/plate.png" alt="">
+        <img class="plate_img" src="images/completed_plate.png" alt="">
       </figure>
 
       <figcaption class="plate_description">
