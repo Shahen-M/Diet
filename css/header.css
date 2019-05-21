@@ -21,6 +21,13 @@ h1 {
 
 nav {
   width: 50%;
+  text-transform: uppercase;
+}
+
+.nav_container {
+  display: flex;
+  float: right;
+  padding-right: 50px;
 }
 
 nav li {
@@ -36,13 +43,6 @@ ul a {
   list-style: none;
   text-decoration: none;
   color: #000;
-}
-
-
-/* ****************/
-nav {
-  text-transform: uppercase;
-  display: flex;
 }
 
 nav span {
