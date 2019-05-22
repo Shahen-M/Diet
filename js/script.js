@@ -1,10 +1,7 @@
 
 document.getElementById('calculate_btn').addEventListener('click', function() {
   bmiCalculate();
-  checkIfTextBoxEmpty();
-  // checkRadioButton();
-
-
+  checkEmptyFields();
 })
 
 function bmiCalculate() {
@@ -22,7 +19,7 @@ function bmiCalculate() {
 
 }
 
-function checkIfTextBoxEmpty() {
+function checkEmptyFields() {
   const height_ft = document.getElementById('height_in_ft').value;
   const height_in = document.getElementById('height_in_inches').value;
   const weight = document.getElementById('weight').value;
@@ -39,16 +36,6 @@ function checkIfTextBoxEmpty() {
   }
 }
 
-// function checkRadioButton() {
-//   let maleRadio = document.getElementById('male_radio');
-//   let femaleRadio = document.getElementById('female_radio');
-//
-//   if (maleRadio.checked == true || femaleRadio.checked == true) {
-//     $('.calculator_popup').show();
-//   } else {
-//     alert('Please fill out missing fields');
-//   }
-// }
 
 
 
