@@ -95,12 +95,116 @@ h2 {
   cursor: pointer;
 }
 
+.plan_container {
+  height: 500px;
+  background-size: 100%;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+}
+
+.calculator_content {
+  width: 360px;
+  height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  border-radius: 20px;
+}
+
+h3 {
+  text-align: center;
+  padding: 30px 0 0 0;
+  font-size: 20px;
+  margin: 0;
+}
+
+.height_content {
+  display: flex;
+  display: block;
+  margin: 30px 0 0 40px;
+}
+
+.calculator_content input {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.calculator_content input::-webkit-outer-spin-button,
+.calculator_content input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=radio] {
+  width: 17px;
+  vertical-align: bottom;
+}
+
+.height_content input:last-child {
+  margin-left: 30px;
+}
+
+.weight_content {
+  margin: 30px 0 0 35px;
+}
+
+.gender_content {
+  margin: 30px 0 0 38px;
+}
+
+.gender_content label {
+  vertical-align: super;
+}
 
 
+.gender_content p {
+  float: left;
+  margin: 7px 0 0 0;
+}
 
+.button_content {
+  margin: 30px 0 0 0;
+}
 
+.button_content button {
+  width: 150px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 1px #000 solid;
+  background-color: #fff;
+  cursor: pointer;
+}
 
+.button_content button:hover {
+  background-color: #000;
+  color: #fff;
+}
 
+.tdee_content {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.calculator_popup {
+  width: 300px;
+  height: 250px;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  right: 0;
+  left: 0;
+  top: 196%;
+  display: none;
+}
 
 
 

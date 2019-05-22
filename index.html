@@ -121,7 +121,42 @@
           <img src="images/high_protein_snack.jpg" alt="" />
           <img src="images/low_carb.jpg" alt="" />
       </div>
+    </section>
 
+    <section class="plan_container">
+      <div class="calculator_content">
+        <h3> Find out you're BMI </h3>
+
+        <div class="height_content">
+          Height: <input id="height_in_ft" type="number"/> ft
+          <input id="height_in_inches" type="number"/> in
+        </div>
+
+        <div class="weight_content">
+          Weight: <input id="weight" type="number"/> lbs
+        </div>
+
+        <div class="gender_content">
+          <form>
+              <p>Gender:</p> <input type="radio" name="gender" value="male">
+              <label for="male">Male</label>
+              <input type="radio" name="gender" value="female">
+              <label for="female">Female</label>
+          </form>
+        </div>
+
+        <div class="button_content">
+          <button id="calculate_btn" type="button" name="button">Caculate!</button>
+        </div>
+
+        <div class="tdee_content">
+          <p>Click here to find out you're daily calorie intake</p>
+        </div>
+      </div>
+
+      <div class="calculator_popup">
+        <p id="bmi_number"></p>
+      </div>
 
 
     </section>
