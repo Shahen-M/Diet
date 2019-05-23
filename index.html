@@ -170,33 +170,31 @@
         <h3> Find out your daily calorie intake </h3>
 
           <form class="height_form">
-            Height: <input id="height_in_ft" type="number"> ft
-            <input id="height_in_inches" type="number"> in
+            Height: <input id="daily_calorie_height" type="number"> cm
           </form>
 
           <form class="weight_form">
-            Weight: <input id="weight" type="number"> lbs
+            Weight: <input id="daily_calorie_weight" type="number"> kg
           </form>
 
           <form class="age_form">
-            <p>Age:</p> <input id="age" type="number">
+            <p>Age:</p> <input id="daily_calorie_age" type="number">
           </form>
 
           <form class="activity_form">
             <label for="activity">Activity:</label>
-            <select class="activity_level" name="activity">
-              <option value="sedentary">Sedentary(office job)</option>
-              <option value="light">Light Exercise(1-2 days/week)</option>
-              <option value="moderate">Moderate Excercise(3-5 days/week)</option>
-              <option value="heavy">Heavy Excercise(6-7 days/week)</option>
-              <option value="athlete">Athlete(2x per day)</option>
+            <select id="activity_level" class="activity_level" name="activity">
+              <option value="1">Sedentary(office job)</option>
+              <option value="2">Light Exercise(1-2 days/week)</option>
+              <option value="3">Moderate Excercise(3-5 days/week)</option>
+              <option value="4">Heavy Excercise(6-7 days/week)</option>
             </select>
           </form>
 
           <form class="gender_form">
-              <p>Gender:</p> <input id="male_radio" type="radio" name="gender" value="male">
+              <p>Gender:</p> <input id="daily_male_radio" type="radio" name="gender" value="male">
               <label for="male">Male</label>
-              <input id="female_radio" type="radio" name="gender" value="female">
+              <input id="daily_female_radio" type="radio" name="gender" value="female">
               <label for="female">Female</label>
           </form>
 
