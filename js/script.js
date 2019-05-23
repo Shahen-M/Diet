@@ -11,6 +11,16 @@ document.getElementById('close').addEventListener('click', function () {
   clearFields();
 })
 
+document.getElementById('tdee_popup').addEventListener('click', function() {
+  $('.daily_calorie_calculator').show();
+  $('.calculator_content').hide();
+})
+
+document.getElementById('bmi_popup').addEventListener('click', function() {
+  $('.daily_calorie_calculator').hide();
+  $('.calculator_content').show();
+})
+
 function bmiCalculate() {
   const height_ft = document.getElementById('height_in_ft').value;
   const height_in = document.getElementById('height_in_inches').value;

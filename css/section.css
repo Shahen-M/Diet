@@ -120,7 +120,6 @@ h3 {
 }
 
 .height_content {
-  display: flex;
   display: block;
   margin: 30px 0 0 40px;
 }
@@ -132,7 +131,9 @@ h3 {
 }
 
 .calculator_content input::-webkit-outer-spin-button,
-.calculator_content input::-webkit-inner-spin-button {
+.calculator_content input::-webkit-inner-spin-button,
+.daily_calorie_calculator input::-webkit-outer-spin-button,
+.daily_calorie_calculator input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
@@ -232,11 +233,91 @@ input[type=radio] {
   cursor: pointer;
 }
 
+.daily_calorie_calculator {
+  width: 360px;
+  height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  border-radius: 20px;
+  display: none;
+}
 
+.height_form {
+  margin: 15px 0 0 40px;
+}
 
+.weight_form {
+  margin: 15px 0 0 36px;
+}
 
+.gender_form {
+  margin: 15px 0 0 36px;
+}
 
+.daily_calorie_calculator form input {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+}
 
+.gender_form p, .age_form p {
+  float: left;
+  margin: 7px 2px 0 0;
+}
+
+.daily_calorie_calculator input[type=radio] {
+  width: 17px;
+  vertical-align: bottom;
+}
+
+.daily_calorie_calculator label {
+  vertical-align: super;
+}
+
+.age_form {
+  margin: 15px 0 0 65px;
+}
+
+.activity_form {
+  margin: 15px 0 0 36px;
+}
+
+.activity_level {
+  width: 170px;
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  vertical-align: super;
+}
+
+.daily_calorie_button_content {
+  margin-top: 15px;
+}
+
+.daily_calorie_button_content button {
+  width: 150px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 1px #000 solid;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.daily_calorie_button_content button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.bmi_content {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 15px;
+  cursor: pointer;
+}
 
 
 

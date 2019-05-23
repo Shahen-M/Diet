@@ -154,7 +154,7 @@
         </div>
 
         <div class="tdee_content">
-          <p>Click here to find out your daily calorie intake</p>
+          <p id="tdee_popup">Click here to find out your daily calorie intake</p>
         </div>
       </div>
 
@@ -165,6 +165,52 @@
       <div class="calculator_popup">
         <p id="bmi_number" class="bmi_number"></p>
       </div>
+
+      <div class="daily_calorie_calculator">
+        <h3> Find out your daily calorie intake </h3>
+
+          <form class="height_form">
+            Height: <input id="height_in_ft" type="number"> ft
+            <input id="height_in_inches" type="number"> in
+          </form>
+
+          <form class="weight_form">
+            Weight: <input id="weight" type="number"> lbs
+          </form>
+
+          <form class="age_form">
+            <p>Age:</p> <input id="age" type="number">
+          </form>
+
+          <form class="activity_form">
+            <label for="activity">Activity:</label>
+            <select class="activity_level" name="activity">
+              <option value="sedentary">Sedentary(office job)</option>
+              <option value="light">Light Exercise(1-2 days/week)</option>
+              <option value="moderate">Moderate Excercise(3-5 days/week)</option>
+              <option value="heavy">Heavy Excercise(6-7 days/week)</option>
+              <option value="athlete">Athlete(2x per day)</option>
+            </select>
+          </form>
+
+          <form class="gender_form">
+              <p>Gender:</p> <input id="male_radio" type="radio" name="gender" value="male">
+              <label for="male">Male</label>
+              <input id="female_radio" type="radio" name="gender" value="female">
+              <label for="female">Female</label>
+          </form>
+
+          <div class="daily_calorie_button_content">
+             <button id="daily_calorie_btn" type="submit" name="button">Caculate!</button>
+          </div>
+
+          <div class="bmi_content">
+            <p id="bmi_popup">Click here to find out your BMI</p>
+          </div>
+
+      </div>
+
+
 
 
     </section>
