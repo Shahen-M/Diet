@@ -196,7 +196,7 @@ input[type=radio] {
   cursor: pointer;
 }
 
-.calculator_popup {
+.calculator_popup, .tdee_calculation_popup {
   width: 360px;
   height: 400px;
   background-color: #fff;
@@ -245,11 +245,12 @@ input[type=radio] {
 }
 
 .height_form {
-  margin: 15px 0 0 40px;
+  margin: 30px 20px 0 25px;
+  float: left;
 }
 
 .weight_form {
-  margin: 15px 0 0 36px;
+  margin: 30px 0 0 36px;
 }
 
 .gender_form {
@@ -277,11 +278,11 @@ input[type=radio] {
 }
 
 .age_form {
-  margin: 15px 0 0 65px;
+  margin: 25px 0 0 50px;
 }
 
 .activity_form {
-  margin: 15px 0 0 36px;
+  margin: 25px 0 0 36px;
 }
 
 .activity_level {
@@ -292,7 +293,7 @@ input[type=radio] {
 }
 
 .daily_calorie_button_content {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .daily_calorie_button_content button {
@@ -315,11 +316,18 @@ input[type=radio] {
 .bmi_content {
   text-align: center;
   font-size: 13px;
-  margin-top: 15px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
+.tdee_day_value, .tdee_week_value {
+  text-align: center;
+}
 
+h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 
 
