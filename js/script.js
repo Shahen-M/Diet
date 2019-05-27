@@ -126,9 +126,6 @@ function calculateTdee() {
         tdeePerWeekValue.innerHTML = Math.round(heavy) * 7 + ' calories per week';
       }
   }
-
-
-
 }
 
 function checkTdeeEmptyFeilds() {
@@ -149,7 +146,13 @@ function checkTdeeEmptyFeilds() {
   }
 }
 
-
+$(window).on('scroll', function() {
+  if($(window).scrollTop() > 200) {
+    $('header').addClass('header_scroll_animation');
+  } else {
+    $('header').removeClass();
+  }
+})
 
 
 
