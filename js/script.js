@@ -28,6 +28,19 @@ document.getElementById('daily_calorie_btn').addEventListener('click', function(
   checkTdeeEmptyFeilds();
 })
 
+document.getElementById('menu').addEventListener('click', function() {
+  $('#nav').addClass('nav_slide_left_animation');
+})
+
+$(window).on('scroll', function() {
+  if($(window).scrollTop() > 200) {
+    $('header').addClass('header_scroll_animation');
+  } else {
+    $('header').removeClass();
+  }
+})
+
+
 function bmiCalculate() {
   const height_ft = document.getElementById('height_in_ft').value;
   const height_in = document.getElementById('height_in_inches').value;
@@ -146,13 +159,6 @@ function checkTdeeEmptyFeilds() {
   }
 }
 
-$(window).on('scroll', function() {
-  if($(window).scrollTop() > 200) {
-    $('header').addClass('header_scroll_animation');
-  } else {
-    $('header').removeClass();
-  }
-})
 
 
 

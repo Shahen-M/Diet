@@ -1,5 +1,80 @@
 
 @media (min-width: 0px) {
+  header {
+    display: block;
+  }
 
+  .menu {
+    position: absolute;
+    font-size: 40px;
+  }
+
+  .menu p {
+    margin: 0;
+  }
+
+  .right_content {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  h1 {
+    font-size: 11vw;
+    margin: 13px 0 0 0;
+  }
+
+  header img {
+    width: 75px;
+    height: 60px;
+  }
+
+  nav {
+    width: 240px;
+    height: 100vh;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background: grey;
+    top: 0;
+  }
+
+  .nav_container {
+    display: block;
+    float: none;
+    padding: 0;
+  }
+
+  .nav_slide_left_animation {
+    animation: slideInLeft 0.5s;
+    display: block;
+  }
+
+  @-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+  .drop_down_content {
+    display: block;
+    margin: 20px 0 0 20px;
+  }
+
+  .drop_down {
+    position: relative;
+    width: 100%;
+  }
+
+  .right_content img {
+    display: none;
+  }
 
 }
