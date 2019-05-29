@@ -4,26 +4,6 @@ header {
   z-index: 100;
 }
 
-.header_scroll_animation {
-  position: fixed;
-  background-color: #fff;
-  animation: slideInDown 1s;
-  box-shadow: 0px 0px 10px 1px;
-}
-
-@keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
 .right_content {
   width: 50%;
   display: flex;

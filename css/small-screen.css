@@ -1,8 +1,28 @@
 
-@media (min-width: 0px) {
+@media only screen and (min-width: 0px) {
   header {
     display: block;
     padding: 5px 0 5px 0;
+  }
+
+  .header_scroll_animation {
+    position: fixed;
+    background-color: #fff;
+    animation: slideInDown 1s;
+    box-shadow: 0px 0px 10px 1px;
+  }
+
+  @keyframes slideInDown {
+    from {
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+      visibility: visible;
+    }
+
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
   }
 
   .menu {
@@ -10,6 +30,7 @@
     z-index: 200;
     background: none;
     border: none;
+    outline: none;
   }
 
   .menu p {
@@ -67,6 +88,10 @@
   }
 }
 
+  .title {
+    font-size: 23px;
+  }
+
   .drop_down_content {
     display: block;
     margin: 0;
@@ -80,5 +105,57 @@
   .right_content img {
     display: none;
   }
+
+  .plate_img {
+    width: 100%;
+  }
+
+  .food_group_container {
+    height: auto;
+  }
+
+  .plate_description {
+    width: 90%;
+    float: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cook_your_own_top_container img, .cook_your_own_bottom_container img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .calculator_content, .daily_calorie_calculator {
+    width: 90%;
+  }
+
+  .daily_calorie_calculator {
+    padding-bottom: 35px;
+  }
+
+  .plan_container {
+    background-size: 100% 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
