@@ -8,7 +8,8 @@ document.getElementById('close').addEventListener('click', function () {
   $('.calculator_popup').hide();
   $('.tdee_calculation_popup').hide();
   $('.overlay').hide();
-
+  $('body').removeClass('body_overflow');
+  $('#nav').removeClass('nav_slide_left_animation');
 
   clearFields();
 })
@@ -28,9 +29,13 @@ document.getElementById('daily_calorie_btn').addEventListener('click', function(
   checkTdeeEmptyFeilds();
 })
 
-document.getElementById('menu').addEventListener('click', function() {
-  $('#nav').addClass('nav_slide_left_animation');
-})
+ document.getElementById('menu').addEventListener('click', function() {
+   let hamburger = document.querySelector(".hamburger");
+   hamburger.classList.toggle("is-active");
+
+   $('#nav').toggleClass('nav_slide_left_animation');
+   $('body').toggleClass('body_overflow');
+ })
 
 $(window).on('scroll', function() {
   if($(window).scrollTop() > 200) {
