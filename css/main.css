@@ -10,7 +10,7 @@
   user-select: none;
   cursor: default;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(0, 0, 0, 0.1); */
   -webkit-animation: ism-fadein 3s;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
@@ -44,7 +44,7 @@
   bottom: 0;
   margin: 0 !important;
   padding: 0 !important;
-  background-color: #d5d5d5;
+  /* background-color: #d5d5d5; */
   text-align: center;
 }
 
@@ -284,7 +284,8 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-  height: 600px;
+  /* height: 600px; */
+  height: 545px;
     -webkit-border-radius: 5px; border-radius: 5px;
 }
 
@@ -297,7 +298,12 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-frame {
-    position: absolute; top: 0; bottom: 0; left: 0; width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
 }
 
 #my-slider .ism-button {

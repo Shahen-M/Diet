@@ -123,10 +123,10 @@
   }
 
   .cook_your_own_top_container img, .cook_your_own_bottom_container img {
-    width: 70%;
+    width: 60%;
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .calculator_content, .daily_calorie_calculator {
