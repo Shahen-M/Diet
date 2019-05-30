@@ -1,6 +1,10 @@
+html {
+  -webkit-tap-highlight-color:transparent;
+
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
-  -webkit-tap-highlight-color:transparent;
   margin: 0;
 }
 

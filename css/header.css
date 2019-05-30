@@ -77,7 +77,8 @@ nav span {
 }
 
 .drop_down li:hover {
-  background: grey;
+  background: #114B5F;
+  color: #fff;
 }
 
 .title {
