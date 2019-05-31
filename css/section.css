@@ -198,15 +198,15 @@ input[type=radio] {
 
 .calculator_popup, .tdee_calculation_popup {
   width: 360px;
+  max-width: 90%;
   height: 400px;
   background-color: #fff;
   display: block;
   margin: 0 auto;
-  position: absolute;
-  left: 50%;
-  right: 0;
+  position: fixed;
   left: 0;
-  top: 200%;
+  right: 0;
+  top: 30%;
   border-radius: 20px;
   display: none;
   z-index: 20;
@@ -229,7 +229,7 @@ input[type=radio] {
   color: #fff;
   float: right;
   font-size: 30px;
-  margin: 20px;
+  margin: 50px 15px 0 0px;
   cursor: pointer;
 }
 

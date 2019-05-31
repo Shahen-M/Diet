@@ -66,6 +66,8 @@
     padding-top: 70px;
   }
 
-
+  .overlay p {
+    margin: 75px 15px 0 0px;
+  }
 
 }
