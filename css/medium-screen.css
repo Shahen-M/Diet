@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .plate_img {
+    width: 70%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+
+
+
+
+}

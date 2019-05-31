@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 0px) {
+@media (min-width: 0px) {
   header {
     display: block;
     padding: 5px 0 5px 0;
@@ -44,7 +44,7 @@
   }
 
   h1 {
-    font-size: 8vw;
+    font-size: 30px;
   }
 
   header img {
@@ -109,7 +109,11 @@
   }
 
   .plate_img {
-    width: 100%;
+    max-width: 100%;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    float: none;
   }
 
   .food_group_container {
@@ -132,7 +136,8 @@
   }
 
   .calculator_content, .daily_calorie_calculator {
-    width: 90%;
+    max-width: 90%;
+    width: 360px;
   }
 
   .daily_calorie_calculator {
