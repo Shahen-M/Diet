@@ -70,4 +70,23 @@
     margin: 75px 15px 0 0px;
   }
 
+  .fruits_link {
+    top: 110px;
+    left: 70px;
+  }
+
+  .vegetables_link {
+    top: 110px;
+    left: 280px;
+  }
+
+  .protein_link {
+    top: 245px;
+    left: 70px;
+  }
+
+  .grains_link {
+    top: 245px;
+    left: 280px;
+  }
 }

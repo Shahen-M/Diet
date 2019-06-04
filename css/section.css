@@ -23,39 +23,48 @@ h2 {
 }
 
 .fruits_link {
-  width: 120px;
-  height: 122px;
+  max-width: 20%;
+  width: 200px;
+  max-height: 23%;
+  height: 200px;
   position: absolute;
-  top: 128px;
-  left: 116px;
-  background: transparent;
+  top: 13vw;
+  left: 29vw;
+  /* background: transparent; */
+  background-color: red;
 }
 
 .vegetables_link {
-  width: 120px;
-  height: 122px;
+  max-width: 20%;
+  width: 200px;
+  max-height: 23%;
+  height: 200px;
   position: absolute;
-  top: 128px;
-  left: 244px;
-  background: transparent;
+  top: 13vw;
+  left: 51vw;
+  background: green;
 }
 
 .protein_link {
-  width: 120px;
-  height: 122px;
+  max-width: 20%;
+  width: 200px;
+  max-height: 23%;
+  height: 200px;
   position: absolute;
-  top: 260px;
-  left: 116px;
-  background: transparent;
+  top: 24vh;
+  left: 29vw;
+  background: blue;
 }
 
 .grains_link {
-  width: 120px;
-  height: 122px;
+  max-width: 20%;
+  width: 200px;
+  max-height: 23%;
+  height: 200px;
   position: absolute;
-  top: 260px;
-  left: 244px;
-  background: transparent;
+  top: 24vh;
+  left: 52vw;
+  background: aqua;
 }
 
 .cook_your_own_foods {
