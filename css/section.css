@@ -30,8 +30,7 @@ h2 {
   position: absolute;
   top: 13vw;
   left: 29vw;
-  /* background: transparent; */
-  background-color: red;
+  background: transparent;
 }
 
 .vegetables_link {
@@ -42,7 +41,7 @@ h2 {
   position: absolute;
   top: 13vw;
   left: 51vw;
-  background: green;
+  background: transparent;
 }
 
 .protein_link {
@@ -53,7 +52,7 @@ h2 {
   position: absolute;
   top: 24vh;
   left: 29vw;
-  background: blue;
+  background: transparent;
 }
 
 .grains_link {
@@ -64,7 +63,7 @@ h2 {
   position: absolute;
   top: 24vh;
   left: 52vw;
-  background: aqua;
+  background: transparent;
 }
 
 .cook_your_own_foods {
