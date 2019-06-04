@@ -112,12 +112,12 @@ h2 {
 
 .calculator_content {
   width: 360px;
-  height: 400px;
   background-color: #fff;
   margin: 0 auto;
   position: relative;
   top: 50px;
   border-radius: 20px;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -200,7 +200,7 @@ input[type=radio] {
 .tdee_content {
   text-align: center;
   font-size: 13px;
-  margin-top: 40px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -243,7 +243,6 @@ input[type=radio] {
 
 .daily_calorie_calculator {
   width: 360px;
-  height: 400px;
   background-color: #fff;
   margin: 0 auto;
   position: relative;
