@@ -111,12 +111,24 @@ function calculateTdee() {
   if(femaleRadio.checked == true) {
     if(activity == 1) {
         var sedentary = female_bmr * 1.1;
+
+        tdeePerDayValue.innerHTML = Math.round(sedentary) + ' calories per day';
+        tdeePerWeekValue.innerHTML = Math.round(sedentary) * 7 + ' calories per week';
       } else if (activity == 2) {
         var light = female_bmr * 1.275;
+
+        tdeePerDayValue.innerHTML = Math.round(light) + ' calories per day';
+        tdeePerWeekValue.innerHTML = Math.round(light) * 7 + ' calories per week';
       } else if (activity == 3) {
         var moderate = female_bmr * 1.35;
+
+        tdeePerDayValue.innerHTML = Math.round(moderate) + ' calories per day';
+        tdeePerWeekValue.innerHTML = Math.round(moderate) * 7 + ' calories per week';
       } else if (activity == 4) {
         var heavy = female_bmr * 1.525;
+
+        tdeePerDayValue.innerHTML = Math.round(heavy) + ' calories per day';
+        tdeePerWeekValue.innerHTML = Math.round(heavy) * 7 + ' calories per week';
       }
   }
 
